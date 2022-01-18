@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "alwaysStrict": false,
+    "resolveJsonModule": true,
+    "outDir": "./lib/",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext", "DOM"],
+    "strictBindCallApply": true,
+    "removeComments": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "types": [
+      "node", "mocha"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
