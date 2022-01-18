@@ -19,5 +19,9 @@ Refer: npm package which is used
 
 https://www.npmjs.com/package/rest-assured-ts
 
+REF usage of other methods.
+https://github.com/automatekitbox/cucumber-rest-assured-typescript
+
+
 
 
